@@ -21,3 +21,9 @@
     "typescript": "^5.6.3"
   }
 }
+
+{
+  "scripts": {
+    "badge": "tsx scripts/badge.ts"
+  }
+}
