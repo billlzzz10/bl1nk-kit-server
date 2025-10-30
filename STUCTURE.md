@@ -1,3 +1,5 @@
+
+```
 code-audit-ts/
 ├─ package.json
 ├─ tsconfig.json
@@ -36,3 +38,4 @@ code-audit-ts/
 │  │  └─ fuse.ts
    └─ cli/
       └─ main.ts
+```
