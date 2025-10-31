@@ -7,7 +7,7 @@
     "build": "tsc -p .",
     "dev": "tsx src/cli/main.ts",
     "start": "node dist/cli/main.js",
-    "analyze": "code-audit analyze . --lang ts --format md --out audit.md --fail-on error",
+    "analyze": "code-audit analyze . --format md --out audit.md --fail-on error",
     "graph": "code-audit graph . --out import-graph.dot",
     "dup": "code-audit dup . --out duplicates.json",
     "grade": "code-audit grade . --out grade.json",
