@@ -18,16 +18,18 @@ operation Analyze {
 
 structure AnalyzeInput {
     @documentation("The root directory of the project to analyze.")
+    @documentation("The root directory of the project to analyze.")
+    @required
     root: String,
 
     @documentation("The output format for the report.")
-    format: ReportFormat,
+    format: ReportFormat = "md",
 
     @documentation("The path to the output file.")
     out: String,
 
     @documentation("The severity level that will cause a non-zero exit code.")
-    failOn: Severity,
+    failOn: Severity = "error",
 }
 
 structure AnalyzeOutput {
