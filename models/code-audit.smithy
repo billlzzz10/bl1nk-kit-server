@@ -23,9 +23,11 @@ structure AnalyzeInput {
     root: String,
 
     @documentation("The output format for the report.")
+    @optional
     format: ReportFormat = "md",
 
     @documentation("The path to the output file.")
+    @optional
     out: String,
 
     @documentation("The severity level that will cause a non-zero exit code.")

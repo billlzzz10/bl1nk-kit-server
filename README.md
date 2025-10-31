@@ -66,7 +66,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: '22' }
-      - uses: billlzzz10/code-audit-ts@v1
+      - uses: ./
         with:
           path: "."
           fail-on: "error"
